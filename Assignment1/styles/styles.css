@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding :30px;
+    font-family: Arial, sans-serif;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.movie {
+    width: 290px;
+}
+
+.movie h2 {
+    border :4px solid black;
+    padding: 5px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.poster {
+    width: 290px;
+    height: 470px;
+    border: 4px solid black;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.movie-info {
+    border: 4px solid black;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.imdb-description {
+    border: 4px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    min-height: 60px;
+}
+
+.my-review {
+    border: 4px solid black;
+    padding: 10px;
+    min-height: 100px;
+}
